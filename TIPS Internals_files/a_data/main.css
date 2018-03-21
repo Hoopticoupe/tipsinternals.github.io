@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+body{ padding: 0px; margin: 0px; font-size:13px; font-family: 'Open Sans', sans-serif; color: #000; line-height: 1.6em; }
+a { color: #000; }
+a:hover { color: #000; text-decoration: none; }
+a:focus { text-decoration: none; } 
+.btn { border-radius: 0 0; }
+.btn-md { min-width: 80px; }
+.form-control { border-radius: 0 0 ; }
+.mtop15 { margin-top: 15px; }
+.mbot-15 { margin-bottom: 15px; }
+.wrapper{ margin-bottom:15px; }
+header { border-bottom: 1px solid #ccc; }
+.topheader{ height: 40px; }
+.logo{ float: left; display: table; height: 40px; }
+.logo a, .logo span{ display: table-cell; vertical-align: middle; font-size: 16px; }
+.logo span{ padding-left: 15px; }
+.rightmenu{ float: right; padding: 0px; margin: 0px; display: table; height: 40px; }
+.rightmenu > li{ display: table-cell; vertical-align: middle; position: relative; }
+.userdet { background: url('../images/userdet.jpg') right center no-repeat; padding: 10px 45px 10px 16px ; }
+.homelnk { background: url('../images/homelnk.jpg') center center no-repeat; padding: 10px 16px ; }
+.profil { background: url('../images/profil.jpg') center center no-repeat; padding: 10px 16px ; }
+.notify { background: url('../images/notify.jpg') center center no-repeat; padding: 10px 16px ; }
+.privacy { background: url('../images/privacy.jpg') right center no-repeat; padding: 10px 16px ; }
+.rightbrdr { background: url('../images/rightborder.jpg') right center no-repeat; padding-right: 10px;}
+.rmenutxt li{ background: none; padding-right: 10px;}
+.rmenutxt li:last-child{  padding-right: 0px; background: none;}
+.dropsel { background: url('../images/dropsel.jpg') center center no-repeat; padding: 10px 16px ; }
+.notable { display: table; width: 100%; background-color:rgba(241,241,241,0.3); height: 53px; overflow: hidden; }
+.notcell { display: table-cell; padding: 5px; font-size: 12px; border-bottom: 1px solid #CCC; vertical-align: top; }
+.notcell span { display: block; line-height: 1.5em; } 
+.mins { color: #CCC; font-size: 11px; }
+.notimg { width: 51px; text-align: center; }
+.notimg:first-child { padding-right: 0px; }
+.notimg:last-child { padding-left: 0px; }
+.owl-carousel .item img{ max-height: 330px; }
+.bannerlink { padding: 0px; margin: 0px; display: table; background-color: #f1f1f1; width: 100%; }
+.bannerlink > li{ padding: 0px; margin: 0px; display: table-cell; position: relative; }
+.bannerlink > li a{ color: #000; border-right: 1px solid #CCC; padding: 10px; display: block; text-align: center; font-size: 14px; }
+.bannerlink > li a:hover { background-color: rgba(255,255,255,0.5); transition: all ease 0.5s; } 
+.bannerlink > li:last-child > a::after { content: url(../images/dropsel.png); position: absolute; bottom: 3px; right: 5px; }
+.notification { padding: 0px; }
+.notification::before, .privacydrop::before { content: url(../images/bottom_drop_arrow.png); position: absolute; top: -15px; right: 15px; }
+.privacydrop::before { right: 5px; }
+.bannerlink > li:last-child a{ border-right: none; position: relative; }
+.notification { min-width: 500px; }
+.dropdown-menu { margin-top: 0px; border:none; border-radius: 0 0; }
+.rightmenu .dropdown-menu { margin-top: 10px;}
+.rightmenu .dropdown-menu, .bannerlink .dropdown-menu { left: inherit; right: 0px; }
+.rightmenu .dropdown-menu li a, .bannerlink .dropdown-menu li a { padding: 10px; border-bottom: 1px solid rgba(204,204,204,0.2); text-align: left; transition: all ease 0.5s;}
+.rightmenu .dropdown-menu li a:hover , .bannerlink .dropdown-menu li a:hover { background-color: rgba(241,241,241,0.5); transition: all ease 0.5s; padding-left: 15px; }
+.prof_img{ padding: 10px; border: 1px solid #CCC; border-radius: 0px; margin-top: 15px; }
+.prof_img img{ max-height: 280px;} 
+.profl_name p{ color: #ABABAB; }
+.leftmenu { padding: 0px; margin: 0px; }
+.leftmenu li { padding: 0px; margin: 0px; margin-bottom: 15px; list-style-type: none; }
+.leftmenu li a { background-color: #f1f1f1; font-size: 13px; display: block; padding: 10px 7px 10px 10px; color: #000; transition: all ease 0.5s; }
+.leftmenu li a:hover { background-color: rgba(241,241,241,0.5); } 
+.support { background: url('../images/support.png') left 5px center no-repeat; padding-left: 35px !important ; }
+.faq { background: url('../images/faq.png') left 5px center no-repeat; padding-left: 35px !important ; }
+.evaluation { background: url('../images/evaluation.png') left 5px center no-repeat; padding-left: 35px !important ; }
+.appointment { background: url('../images/appointment.png') left 5px center no-repeat; padding-left: 35px !important ; }
+.sideprofile { padding: 15px; background-color: #f1f1f1; }
+.sideprofile h4 { margin-top: 0px; font-weight: 600; }
+hr{ border-top: 1px solid #CCC; margin-top: 0px; margin-bottom: 10px; }
+.commentbox { margin-top: 15px; background-color: #f1f1f1; padding: 15px; }
+.tabcell { display: table-cell; vertical-align: middle; }
+.tabcell:last-child{ padding-left: 10px; }
+.tabcell h4, .tabcell p{ margin: 0px; }
+.tabcell h4 { margin-bottom: 0px; }
+.tabcell p { font-size: 11px; color: #ABABAB; }
+.commentdescn { margin-top: 15px; background-color: #f8f8f8; margin-bottom: 0px; padding: 15px; }
+.noborder { margin-bottom: 0px; }
+.noborder td { border-top: none !important; padding-left: 0px !important; padding-right: 0px !important; }
+.noborder tr:first-child td { padding-top: 0px; }
+.noborder tr:last-child td { padding-bottom: 0px; }
+.commenttext { display: table; width: 100%; padding-top: 15px; }
+.cmtico { width: 30px; }
+.cmntarea { padding-left: 3px !important; }
+h4.title { margin-top: 20px; margin-bottom: 20px; font-weight: 600; }
+.greyhead { background-color: #d8d8d8; padding: 5px 5px; }
+.answer .radio-inline { padding-top: 0px; }
+.otppage { background: url('../images/stock-photo-pupils-in-computer-class-with-teacher-480125899.jpg') top 41px center no-repeat; background-size: cover; }
+.otptable { display: table; width: 100%; min-height: 500px; }
+.otptablecell { display: table-cell; vertical-align: middle; text-align: center; }
+.otptxt { font-size: 15px; }
+.loglogo { float: none; margin:0 auto 20px auto;  }
+/*Login Page Starts Here*/
+.loginbox_cont { display: table; width: 380px; margin: 200px auto 0 auto; transition: all ease 0.5s; }
+.loginbox { margin: 15px auto; display: table-cell; vertical-align: middle; width: 100%; transition: all ease 0.5s; }
+.form-signin {
+ 
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1); 
+ 
+  }
+   .form-signin .checkbox { padding-left: 20px; }
+  .form-signin-heading,
+	.checkbox {
+	  margin-bottom: 30px;
+	}
+
+	.checkbox {
+	  font-weight: normal;
+	}
+
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+		@include box-sizing(border-box);
+
+		&:focus {
+		  z-index: 2;
+		}
+	}
+
+	input[type="text"] {
+	  margin-bottom: -1px;
+	  border-bottom-left-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
+
+	input[type="password"] {
+	  margin-bottom: 20px;
+	  border-top-left-radius: 0;
+	  border-top-right-radius: 0;
+	}
+}
+/*Login Page Ends Here*/
+
+
+/*Tab CSS Starts Here*/
+#exTab1 .nav-pills{ background-color: #f1f1f1; display: table; width: 100%; }
+#exTab1 .nav-pills li{ display: table-cell; vertical-align: middle; float: none; text-align: center; }
+#exTab1 .nav-pills li a{ padding-bottom: 10px; font-size: 14px; text-align: left; } 
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{ background-color: transparent; color: #000; }
+.tab-pane{ padding: 15px; }
+.nav-pills>li.active>a::after {  content: url('../images/bottom_drop_arrow.png'); position: absolute; bottom: -10px; left: 30px; }
+.tab-content{ background-color: #f1f1f1; padding: 0px 15px 15px 15px; }
+.tab-content>.active{ background-color: #FFF; }
+/*Tab CSS Ends Here*/
+
+
+
+/*Owl Overwrite CSS Starts Here*/
+.owl-nav{ display: none; }
+/*Owl Overwrite CSS Ends Here*/
+
+
+/*Media CSS Starts Here*/
+@media (min-width: 1024px)
+{
+	.lpad0{ padding-left: 0px; }
+	.rpad0{ padding-right: 0px; }
+}
+
+@media (min-width: 1366px)
+{
+	.loginbox_cont { margin-top: 150px; }
+}
+@media (min-width: 1601px) and (max-width: 1920px)
+{
+	.loginbox_cont { margin-top: 250px; }
+}
+/*Media CSS Ends Here*/
